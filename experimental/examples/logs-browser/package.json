@@ -1,0 +1,20 @@
+{
+  "name": "logs-browser-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.3.0"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.4.1",
+    "@opentelemetry/api-logs": "^0.38.0",
+    "@opentelemetry/sdk-logs": "^0.38.0",
+    "@opentelemetry/exporter-logs-otlp-http": "^0.38.0"
+  }
+}
